@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Venkadesh Developer Portfolio</title>
+      <link rel="stylesheet" href="./portfolio.css">
+</head>
+
+<body>
+      <header>
+            <h1>VENKADESH S</h1>
+            <p>Aspiring Full Stack Developer</p>
+            <nav>
+                  <a href="#about">About</a>
+                  <a href="#education">Education</a>
+                  <a href="#skills">Skills</a>
+                  <a href="#projects">Projects</a>
+                  <a href="#certifications">Certifications</a>
+                  <a href="#contact">Contact</a>
+            </nav>
+      </header>
+
+      <!-- About Section -->
+      <section id="about">
+            <h2>Career Objective</h2>
+            <p>
+                  As an aspiring Full Stack Developer, I am passionate about using my skills in Java, SQL, HTML, CSS,
+                  and version control to contribute to innovative web applications. With a strong foundation in backend
+                  development using Java and database management with SQL, I strive to design efficient and scalable
+                  solutions that solve real-world problems. On the frontend, I am proficient in HTML and CSS, enabling
+                  me to build responsive and user-friendly interfaces that enhance the overall user experience.
+
+                  I am well-versed in using version control tools such as Git and GitHub, ensuring smooth collaboration
+                  and efficient code management. My goal is to continue expanding my skill set and grow as a
+                  well-rounded developer by further exploring new technologies and frameworks. I am eager to join a
+                  dynamic team where I can apply my skills, learn from experienced professionals, and contribute to
+                  impactful projects while continuously evolving in the field of web development.
+            </p>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education">
+            <h2>Education</h2>
+            <div class="education-card">
+                  <h3>Bachelor of Engineering in Electronics and Communication</h3>
+                  <p>Jeppiaar Engineering College, Chennai</p>
+                  <p><strong>2020 - 2024</strong></p>
+            </div>
+            <div class="education-card">
+                  <h3>Higher Secondary School</h3>
+                  <p>Laurel Higher Secondary School, Thanjavur</p>
+                  <p><strong>2019 - 2020</strong></p>
+            </div>
+            <div class="education-card">
+                  <h3>Secondary School</h3>
+                  <p>Kasilingam Matriculation School, Thanjavur</p>
+                  <p><strong>2017 - 2018</strong></p>
+            </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                  <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <p>Java</p>
+                  </div>
+                  <div class="skill-category">
+                        <h3>Database</h3>
+                        <p>Oracle SQL</p>
+                  </div>
+                  <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <p>HTML, CSS</p>
+                  </div>
+                  <div class="skill-category">
+                        <h3>Version Control</h3>
+                        <p>Git, GitHub</p>
+                  </div>
+                  <div class="skill-category">
+                        <h3>Tools & IDEs</h3>
+                        <p>VS Code, EditPlus, SQL Plus, Eclipse</p>
+                  </div>
+            </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                  <div class="project-card">
+                        <h3>Food Delivery System</h3>
+                        <p>A Java-based project for managing customer orders and restaurant data using control flow
+                              statements.</p>
+                  </div>
+                  <div class="project-card">
+                        <h3>Employee Management System</h3>
+                        <p>An SQL-based project for efficient employee records and department management.</p>
+                  </div>
+                  <div class="project-card">
+                        <h3>Automated Seed Sowing Machine</h3>
+                        <p>An IoT project leveraging ESP32 for precision in agricultural processes.</p>
+                  </div>
+            </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certificate-box"
+                  onclick="window.open('https://drive.google.com/file/d/1DWIpQZyZruQmkFunEv9RtuBcGflAAAsy/view?usp=sharing', '_blank')">
+                  <h3>Java Certification - Great Learning</h3>
+                  <p>Click to view certificate</p>
+            </div>
+            <div class="certificate-box"
+                  onclick="window.open('https://drive.google.com/file/d/10DAulIUX_hg79TLGcLU0KdEgXmewM5Z9/view?usp=sharing', '_blank')">
+                  <h3>SQL Certification - HackerRank</h3>
+                  <p>Click to view certificate</p>
+            </div>
+            <div class="certificate-box"
+                  onclick="window.open('https://drive.google.com/file/d/17q2vEVJ68Y10wbT3W8ewxBOKo7sY1YOZ/view?usp=sharing', '_blank')">
+                  <h3>CSS Certification - HackerRank</h3>
+                  <p>Click to view certificate</p>
+            </div>
+
+            <div class="certificate-box"
+                  onclick="window.open('https://drive.google.com/file/d/1g_bR64n7TwTlg1m-ZDDzysNcVrgHuN-5/view?usp=sharing', '_blank')">
+                  <h3>Academic Project Presentation - ICONSTEM</h3>
+                  <p>Click to view certificate</p>
+            </div>
+            <div class="certificate-box"
+                  onclick="window.open('https://drive.google.com/file/d/1gs3GAlQp6ubWbd-5_0p20btEYGO_Fm21/view?usp=sharing', '_blank')">
+                  <h3>Networking Essentials - Cisco Networking Academy</h3>
+                  <p>Click to view certificate</p>
+            </div>
+
+
+            <!-- Certificate Preview -->
+            <div id="certificate-preview">
+                  <img src="" alt="Certificate Preview" id="cert-img">
+                  <button onclick="hideCertificate()">Close Certificate</button>
+            </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a
+                        href="mailto:venkadesh1102@gmail.com?subject=Inquiry%20about%20your%20project&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20project.">venkadesh1102@gmail.com</a>
+            </p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/venkadesh-developer" target="_blank"
+                        rel="noopener noreferrer">Venkadesh Developer</a></p>
+            <p><a href="https://drive.google.com/file/d/1OqjykiTv6RmKWx0DRdCsR_fuo6z0BvQk/view?usp=sharing"
+                        target="_blank" download>Resume</a></p>
+      </section>
+
+
+      <script src="./portfolio.js"></script>
+</body>
+
+</html>
